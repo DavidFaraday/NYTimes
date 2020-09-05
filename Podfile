@@ -10,6 +10,7 @@ target 'NY Times' do
 pod 'SKPhotoBrowser'
 pod 'Alamofire'
 pod 'SwiftyJSON'
+pod 'EmptyDataSet-Swift', '~> 5.0.0'
 
   target 'NY TimesTests' do
     inherit! :search_paths

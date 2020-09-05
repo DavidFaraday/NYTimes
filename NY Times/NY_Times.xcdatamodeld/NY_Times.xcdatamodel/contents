@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LikedNews" representedClassName="LikedNews" syncable="YES" codeGenerationType="class">
+        <attribute name="abstract" optional="YES" attributeType="String"/>
+        <attribute name="byline" optional="YES" attributeType="String"/>
+        <attribute name="imageCaption" optional="YES" attributeType="String"/>
+        <attribute name="imageCopyright" optional="YES" attributeType="String"/>
+        <attribute name="pictureUrl" optional="YES" attributeType="String"/>
+        <attribute name="publishedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="shortUrl" optional="YES" attributeType="String"/>
+        <attribute name="thumbUrl" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="updatedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="LikedNews" positionX="-63" positionY="-18" width="128" height="193"/>
+    </elements>
 </model>
